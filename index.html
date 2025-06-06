@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech2 etc JacaScript Product Filter</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name=""
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="img/s1.webp" alt="" />
+          <div class="p-details">
+            <h2>Polo Sneakers For Everyone</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/p1.webp" alt="" />
+          <div class="p-details">
+            <h2>Allen Soly Pants For Everyone</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s9.webp" alt="" />
+          <div class="p-details">
+            <h2>Zara Sneakers For Everyone</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s8.webp" alt="" />
+          <div class="p-details">
+            <h2>Sneakers New Zudio Everyone</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s7.webp" alt="" />
+          <div class="p-details">
+            <h2>Sneaker For womens</h2>
+            <h3>$44</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s6.webp" alt="" />
+          <div class="p-details">
+            <h2>Shoes for Everyone</h2>
+            <h3>$20</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s5.webp" alt="" />
+          <div class="p-details">
+            <h2>Sneakers for Every Child</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s4.webp" alt="" />
+          <div class="p-details">
+            <h2>Sneakers for every young</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s3.webp" alt="" />
+          <div class="p-details">
+            <h2>Sneakers For Everyone</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s2.webp" alt="" />
+          <div class="p-details">
+            <h2>New Zudio Sneakers Pro brand For Everyone</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/s1.webp" alt="" />
+          <div class="p-details">
+            <h2>Stylish Sneakers For Everyone</h2>
+            <h3>$14</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t1.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For womens</h2>
+            <h3>$80</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t2.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For Mens</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t3.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For Adults</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t4.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For Young Generation</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t5.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For youth</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t6.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For Child</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t7.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For girls</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/w7.webp" alt="" />
+          <div class="p-details">
+            <h2>Diamond Sports Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/w6.webp" alt="" />
+          <div class="p-details">
+            <h2>Rolex Black Panther Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/w5.webp" alt="" />
+          <div class="p-details">
+            <h2>Rolex Gold Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/w4.webp" alt="" />
+          <div class="p-details">
+            <h2>Matrix Black Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t3.webp" alt="" />
+          <div class="p-details">
+            <h2>New Fastrack Diamond Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/w2.webp" alt="" />
+          <div class="p-details">
+            <h2>New Fastrack Watch</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/t8.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt For small childs</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
